@@ -1,0 +1,76 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="ISO-8859-1">
+	<title>SAGAM Reports</title>
+	<link rel="stylesheet" href="html5reset.css" type="text/css" />
+	<link rel="stylesheet" href="html5semanticmarkup.css" type="text/css" />
+ 	<!--[if lt IE 9]>
+ 		<script src="html5.js"></script>
+ 	<![endif]-->
+</head>
+<body>
+
+	<header>
+ 		<hgroup>
+		<img src="Sagam_Logo.png" id="logo" /> 
+ 		<h1>מערכת לבקרת הפחת </h1>
+ 		<h2>  </h2>
+ 		</hgroup>
+ 	</header>
+	
+<nav>	
+		<ul>
+	 		<li><a href="#">דוחות </a></li>
+ 			<li><a href="#">הגדרות</a></li>
+			<li><a href="#">עזרה</a></li>
+ 			<li><a href="#">יציאה</a></li>
+ 			
+ 		</ul>
+ 	</nav>
+<article>
+<header>
+ 	<h1> 
+	<P> <font color="grey">דוחות </P> 
+	<P>  ליצירת הדוח הכנס את התאריכים הרצויים ובחר את סוג הדוח <font color="black"></P>
+	</h1>
+</header>
+
+ <section>
+<form method="POST" action="report1.html" enctype="text/plain">
+<p class='form-dates'>
+  <label class='date-label' for="startdate"> מתאריך:</label>
+  <input type="date" name="תאריך התחלה" id="startdate" required/>
+  <label class='date-label' for="enddate"> עד תאריך:</label>
+  <input type="date" name="תאריך סיום" id="enddate" required/>
+</p>
+<!-- <p class='form-types'>
+  <input type="radio" name="report" value="phat" id='radio-phat'><label for='radio-phat'> דוח פחת כולל</label><br>
+  <input type="radio" name="report" value="phat per material" id='radio-ahuzim'><label for='radio-ahuzim'> דוח פחת לפי חומר גלם</label><br> 
+  <input type="radio" name="report" value="pgumim" id='radio-pgumin-amuda'><label for='radio-pgumin-amuda'> דוח פגומים ע"פ עמדה</label><br>
+  <input type="radio" name="report" value="error" id='radio-pgumin-keshel'><label for='radio-pgumin-keshel'> דוח פגומים ע"פ סיבת כשל</label><br>
+  <input type="radio" name="report" value="stat" id='radio-stats'> <label for='radio-stats'>דוח נתונים סטטיסטיים</label><br>
+  </p>
+<p class='form-submit'>
+  <input type="submit" name="submit" id="submit" value="שלח">
+  <input type="reset" name="reset" id="reset" value="אפס"/>
+</P> -->
+<p class='form-types'>
+	<a href='report1.jsp'>דוח פחת כולל</a> 
+	<a href='report2.jsp'>דוח פחת לפי חומר גלם</a> 
+	<a href='report3.jsp'>דוח פגומים ע"פ עמדה</a> 
+	<a href='report4.jsp'>דוח פגומים ע"פ סיבת כשל</a>
+</p>
+
+
+</form>
+
+ </section>
+</article>
+<footer>
+
+ </footer>
+
+</body>
+</html>

@@ -27,8 +27,24 @@ public class DBQuery {
 		}		
 	}
 	
+	public int runUpdate(String sql){
+		try {
+			Class.forName("com.mysql.jdbc.Driver").newInstance();
+			connection = DriverManager.getConnection("jdbc:mysql://localhost/sagam", "root", "218445");
+			preparedStatement = connection.prepareStatement(sql);
+			return preparedStatement.executeUpdate();	
+		} catch (InstantiationException | IllegalAccessException
+				| ClassNotFoundException | SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} 
+		return 0;
+						
+	}
+	
 	public void close(){
 		try {
+			if (resultSet!=null)
 			resultSet.close();
 			preparedStatement.close();
 			connection.close();

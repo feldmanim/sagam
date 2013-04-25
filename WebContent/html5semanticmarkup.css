@@ -1,0 +1,243 @@
+body {
+    width:100%;
+    margin: 0px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#666;
+
+}
+p {
+    margin-top:20px;
+    margin-bottom:20px;
+    line-height:150%;
+}
+
+body>header {
+    background: #999;
+    padding: 15px;
+    height:80px;
+    clear:both;
+}
+body>header hgroup h1 {
+    font-size: 4.0em;
+    text-transform: uppercase;
+    text-align: center;
+    margin:auto;
+    color: #111;
+}
+body>header hgroup h2 {
+    font-size: 0.8em;
+    color: #fff;
+    font-style:italic;
+}
+body>footer {
+    background:#000;
+    padding:10px;
+    height:100px;
+    color:#fff;
+    clear:both;
+}
+nav {
+    height:25px;
+    padding:10px;
+    background: #000;
+    color: #fff;
+    font-weight: bold;
+    clear:both;
+}
+
+nav ul {
+    padding:0; margin:0;
+    list-style: none;
+}
+
+nav ul li {
+    display: block;
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    background: #000;
+    text-decoration: none;
+    padding:5px;
+    display:block;
+    margin:0;
+}
+
+nav ul li a:hover {
+    background: #666;
+}
+body>article {
+    width:100%;
+	    		
+	direction: rtl;
+}
+article>header {
+    border: 1px #333 dashed;
+    border: 7px double grey; 
+    background: #B0E0E6;
+    
+    padding:1px;
+}
+article>header h1 {
+    color: #000;
+    font-size: 2.0em;
+    text-align:right;
+	
+}
+article>header time {
+    font-size: 0.7em;
+}
+article>footer {
+    border: 1px #666 dashed;
+    background: #B0E0E6;                 
+    padding:10px;
+}
+
+
+section>header h1 {
+    font-size: 1.5em;
+    color: #666;
+
+}
+section>footer {
+    font-style: italic;
+}
+
+figure {
+    margin: 0 auto;
+    padding:20px;
+    width:500px;
+    text-align:center;
+    border:1px #ccc dashed;
+    clear:both;
+}
+figcaption {
+    display: block;
+    clear:both;
+    text-align: center;
+    font-style: italic;
+}
+figure img {
+    padding: 10px;
+    margin: 0 auto;
+}
+
+
+body>aside {
+    width:200px;
+    padding:20px;
+    float: left;
+    background: #ccc;
+    color: #000;
+    font-size:0.8em;
+}
+
+aside>header h1 {
+    font-size: 1.5em;
+    color: #000;
+}
+
+form label.date-label {
+	margin-left: 1em;
+	display: inline;
+}
+
+input#startdate {
+	margin-left: 3em;
+}
+
+form .form-dates {
+/* enter style here to control the dates row */
+}
+
+form .form-types {
+	margin: 30px;
+	width: 220px;
+}
+
+form .form-types a {
+	display: block;	
+	text-decoration: none;
+	line-height: 36px;
+	padding: 1em;
+	border-bottom: 2px dotted #333;
+	background-image: url(chevron1.gif);
+	background-size: 24px auto;
+	background-position: left center;
+	background-repeat: no-repeat;
+}
+
+form .form-types a:first-of-type {
+	border-top: 2px dotted #333;	
+}
+
+form .form-types a:hover {
+	background-color: #ccc;
+}
+
+form .form-submit {
+/* enter style here to control the buttons row */
+}
+
+form label {
+	width: 160px;
+	display: inline-block;
+}
+
+#report1 {
+	width: 100%;
+Padding-right:140px;
+	
+}
+
+
+#report1 thead{
+	width: 100%;
+	
+}
+
+#report1 thead th{
+	padding-right: 20px;
+	text-align: center;
+}
+
+
+#report1 {
+	width: 100%
+	border: 1px solid #B0B0B0;
+}
+#report1 thead {
+	text-align: left;
+}
+#report1 thead th {
+	background: -moz-linear-gradient(top, #F0F0F0 0, #DBDBDB 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #F0F0F0), color-stop(100%, #DBDBDB));
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#F0F0F0', endColorstr='#DBDBDB', GradientType=0);
+	border: 1px solid #B0B0B0;
+	color: #444;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 3px 10px;
+}
+#report1 td {
+	padding: 3px 10px;
+	text-align: center;	
+	background: #F2F2F2;
+}
+#report1 tr:nth-child(even) {
+	background: #F2F2F2;
+	text-align: center;
+}
+
+
+
+#logo {
+float:right;
+width: 170px;
+}
+
+.report-container {
+	margin: 1em;
+}

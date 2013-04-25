@@ -1,0 +1,58 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="ISO-8859-1">
+	<title>SAGAM Log In</title>
+	<link rel="stylesheet" href="html5semanticmarkup.css" type="text/css" />
+ 	<!--[if lt IE 9]>
+ 		<script src="html5.js"></script>
+ 	<![endif]-->
+</head>
+<body>
+
+	<header>
+ 		<hgroup>
+		<img src="Sagam_Logo.png" id="logo" /> 
+ 		<h1>מערכת לבקרת הפחת </h1>
+ 		<h2>  </h2>
+ 		</hgroup>
+ 	</header>
+	
+<nav>	
+		<ul>
+	 		<li><a href="#">דוחות</a></li>
+ 			<li><a href="#">הגדרות</a></li>
+ 			<li><a href="#">יציאה</a></li>
+ 			
+ 		</ul>
+ 	</nav>
+<article>
+<header>
+ 	<h1> 
+	<P> <font color="grey">ברוכים הבאים! </P> 
+	<P>  מערכת לבקרה אחר הפחת במפעל ורסנו <font color="black"></P>
+	</h1>
+</header>
+	 <p>אנא הכנס את הנתונים על מנת להתחבר למערכת</p>
+ <section>
+ <form method="POST" action=welcomepage.html enctype="application/x-www-form-urlencoded">
+ <p>
+	<label for="username">שם משתמש:</label>
+	<input type="text" name="username" id="username" size="30" required/></p>
+ <p>
+	<label for="password">סיסמא:</label>
+	<input type="password" name="password" id="password" size="30" required/></p>
+ <p>
+ <input type="submit" name="submit" id="submit" value="הכנס"/>
+ <input type="reset" name="reset" id="reset" value="אפס"/>
+ </p>
+ </form>
+ </section>
+</article>
+<footer>
+
+ </footer>
+
+</body>
+</html>

@@ -7,6 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-
+	THIS IS THE INDEX PAGE
+	hello  
 </body>
 </html>
